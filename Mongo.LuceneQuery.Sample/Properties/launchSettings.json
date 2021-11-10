@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Mongo.LuceneQuery.Sample": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "MONGO_DATABASE": "Squidex_Testing",
+        "MONGO_CONFIGURATION": "mongodb+srv:/user:1234@cluster0.5bq1o.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "MONGO_COLLECTION": "TextIndex"
+      }
+    }
+  }
+}
