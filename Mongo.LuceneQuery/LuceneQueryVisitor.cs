@@ -9,6 +9,8 @@ namespace Mongo.LuceneQuery
 {
     public sealed class LuceneQueryVisitor
     {
+        public static readonly LuceneQueryVisitor Default = new LuceneQueryVisitor();
+
         private readonly Func<string, string>? fieldConverter;
 
         public LuceneQueryVisitor(Func<string, string>? fieldConverter = null)
